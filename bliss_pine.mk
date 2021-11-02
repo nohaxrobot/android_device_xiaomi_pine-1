@@ -9,15 +9,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+BLISS_BUILD_VARIANT := vanilla
+BLISS_BUILDTYPE=UNOFFICIAL
 
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
-PRODUCT_NAME := lineage_pine
+PRODUCT_NAME := bliss_pine
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7A
