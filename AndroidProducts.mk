@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pine.mk
+    $(LOCAL_DIR)/cherish_pine.mk
 
 COMMON_LUNCH_CHOICES := \
     cherish_pine-user \
