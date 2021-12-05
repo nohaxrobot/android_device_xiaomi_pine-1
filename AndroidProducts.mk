@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_pine-user \
-    bliss_pine-userdebug \
-    bliss_pine-eng
+    cherish_pine-user \
+    cherish_pine-userdebug \
+    cherish_pine-eng
