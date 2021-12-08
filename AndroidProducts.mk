@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_pine.mk
+    $(LOCAL_DIR)/cherish_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_pine-user \
-    aosp_pine-userdebug \
-    aosp_pine-eng
+    cherish_pine-user \
+    cherish_pine-userdebug \
+    cherish_pine-eng
