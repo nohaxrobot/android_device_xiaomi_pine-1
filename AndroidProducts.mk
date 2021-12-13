@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_pine.mk
+    $(LOCAL_DIR)/aosp_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_pine-user \
-    evolution_pine-userdebug \
-    evolution_pine-eng
+    aosp_pine-user \
+    aosp_pine-userdebug \
+    aosp_pine-eng
