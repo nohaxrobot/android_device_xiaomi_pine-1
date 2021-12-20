@@ -12,8 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common PixelExperience stuff
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
-# Gapps
-WITH_GMS := true
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
