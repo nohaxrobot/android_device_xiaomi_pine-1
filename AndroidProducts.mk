@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_pine.mk
+    $(LOCAL_DIR)/superior_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_pine-user \
-    aosp_pine-userdebug \
-    aosp_pine-eng
+    superior_pine-user \
+    superior_pine-userdebug \
+    superior_pine-eng
