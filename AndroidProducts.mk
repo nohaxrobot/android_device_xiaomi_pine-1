@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_pine.mk
+    $(LOCAL_DIR)/crystal_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_pine-user \
-    aosp_pine-userdebug \
-    aosp_pine-eng
+    crystal_pine-user \
+    crystal_pine-userdebug \
+    crystal_pine-eng
