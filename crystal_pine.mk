@@ -12,6 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common PixelExperience stuff
 $(call inherit-product, vendor/crystal/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
+CRYSTAL_MAINTAINER := randomas3000 
 
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
