@@ -30,3 +30,8 @@ TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+
+# CherishOS
+CHERISH_BUILD_TYPE := OFFICIAL
+PRODUCT_GENERIC_PROPERTIES += \
+    ro.cherish.maintainer=randomas3000
