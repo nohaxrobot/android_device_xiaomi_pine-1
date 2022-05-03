@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_pine.mk
+    $(LOCAL_DIR)/aosp_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_pine-user \
-    komodo_pine-userdebug \
-    komodo_pine-eng
+    aosp_pine-user \
+    aosp_pine-userdebug \
+    aosp_pine-eng
